@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0; /* Background color */
+  }
+
+  .coffee-machine {
+    text-align: center;
+    padding: 30px;
+    border: 15px solid #4e342e; /* Coffee machine border color */
+    border-radius: 20px;
+    background-color: #3e2723; /* Coffee machine main color */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+
+  .machine-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #795548; /* Machine panel color */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #8d6e63; /* Button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #6d4c41; /* Hover color */
+  }
+
+  h1, h2, h3 {
+    color: #fff; /* Header text color */
+  }
+
+  .display {
+    width: 100%;
+    min-height: 50px;
+    background-color: #fff;
+    border: 1px solid #4e342e; /* Display border color */
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4e342e; /* Display text color */
+  }
